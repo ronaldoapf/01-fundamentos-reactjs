@@ -1,9 +1,9 @@
-import { Header } from "./components/Header"
-import styles from './App.module.css'
-import './global.css'
 import { Post } from "./components/Post"
+import { Header } from "./components/Header"
 import { Sidebar } from "./components/Sidebar"
 
+import styles from './App.module.css'
+import './global.css'
 
 const posts = [
   {
@@ -53,6 +53,7 @@ const posts = [
     publishedAt: new Date('2023-11-17 20:00:00'),
   }
 ];
+
 function App() {
   return (
     <>
